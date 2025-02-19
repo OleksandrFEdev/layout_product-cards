@@ -1,0 +1,130 @@
+.container {
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin-bottom: 40px;
+  padding: 32px 16px 16px;
+  display: flex;
+}
+
+.container__image {
+  width: 160px;
+  height: 134px;
+  margin-bottom: 40px;
+}
+
+.container__title, .container h2 {
+  color: #060b35;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.container__description {
+  color: #616070;
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.container__prices {
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+}
+
+.container__price {
+  color: #616070;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.container__money {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.container__button {
+  margin-top: 16px;
+}
+
+.container__btn {
+  color: #fff;
+  letter-spacing: 0%;
+  cursor: pointer;
+  background-color: #00acdc;
+  border: none;
+  border-radius: 5px;
+  width: 166px;
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+}
+
+.container__btn:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+  padding: 11px 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: center;
+  font-family: Roboto, serif;
+  display: flex;
+}
+
+.stars {
+  justify-content: space-between;
+  align-items: center;
+  width: 166px;
+  height: 16px;
+  margin: 16px 16px 0;
+  display: flex;
+}
+
+.stars__star {
+  justify-content: space-between;
+  align-items: center;
+  width: 96px;
+  height: 16px;
+  display: flex;
+}
+
+.stars__reviews {
+  color: #060b35;
+  text-align: center;
+  margin: 0;
+  padding-top: 3px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  display: flex;
+}
+
+.stars__star--level :nth-child(-n+4) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
